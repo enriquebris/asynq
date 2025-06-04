@@ -4,6 +4,7 @@ go 1.22
 
 require (
 	github.com/MakeNowJust/heredoc/v2 v2.0.1
+	github.com/enriquebris/asynq v0.0.0-20250604194117-21c47bb86126
 	github.com/fatih/color v1.18.0
 	github.com/gdamore/tcell/v2 v2.5.1
 	github.com/google/go-cmp v0.6.0
@@ -21,7 +22,6 @@ require (
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/cespare/xxhash/v2 v2.3.0 // indirect
 	github.com/dgryski/go-rendezvous v0.0.0-20200823014737-9f7001d12a5f // indirect
-	github.com/enriquebris/asynq v0.0.0-20250604194117-21c47bb86126 // indirect
 	github.com/fsnotify/fsnotify v1.4.9 // indirect
 	github.com/gdamore/encoding v1.0.0 // indirect
 	github.com/golang/protobuf v1.5.3 // indirect
