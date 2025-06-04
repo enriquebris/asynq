@@ -9,9 +9,9 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/hibiken/asynq"
-	"github.com/hibiken/asynq/internal/base"
-	asynqcontext "github.com/hibiken/asynq/internal/context"
+	"github.com/enriquebris/asynq"
+	"github.com/enriquebris/asynq/internal/base"
+	asynqcontext "github.com/enriquebris/asynq/internal/context"
 	"github.com/redis/go-redis/v9"
 )
 
