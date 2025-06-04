@@ -59,6 +59,8 @@ github.com/dgryski/go-rendezvous v0.0.0-20200823014737-9f7001d12a5f/go.mod h1:cu
 github.com/dgryski/go-sip13 v0.0.0-20181026042036-e10d5fee7954/go.mod h1:vAd38F8PWV+bWy6jNmig1y/TA+kYO4g3RSRF0IAv0no=
 github.com/enriquebris/asynq v0.0.0-20250604194117-21c47bb86126 h1:M0sKPJtDp24+SiVh5AY3sJ9l3Q6Uut8Kh356rFwoGa8=
 github.com/enriquebris/asynq v0.0.0-20250604194117-21c47bb86126/go.mod h1:wd6kLzkDHky6WPinhTCS6DE93VUIrj5d8EX6e8/RpAI=
+github.com/enriquebris/asynq v0.0.0-20250604202705-52ee523f2310 h1:/DtSi2cHkD+k9W78WnVVUu/UBujDKEDO01oA6F8xvaw=
+github.com/enriquebris/asynq v0.0.0-20250604202705-52ee523f2310/go.mod h1:wd6kLzkDHky6WPinhTCS6DE93VUIrj5d8EX6e8/RpAI=
 github.com/enriquebris/asynq v0.19.0/go.mod h1:tyc63ojaW8SJ5SBm8mvI4DDONsguP5HE85EEl4Qr5Ig=
 github.com/enriquebris/asynq v0.25.0 h1:VCPyRRrrjFChsTSI8x5OCPu51MlEz6Rk+1p0kHKnZug=
 github.com/enriquebris/asynq v0.25.0/go.mod h1:DYQ1etBEl2Y+uSkqFElGYbk3M0ujLVwCfWE+TlvxtEk=
