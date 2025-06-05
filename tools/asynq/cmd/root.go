@@ -16,10 +16,10 @@ import (
 	"unicode/utf8"
 
 	"github.com/MakeNowJust/heredoc/v2"
-	"github.com/fatih/color"
 	"github.com/enriquebris/asynq"
 	"github.com/enriquebris/asynq/internal/base"
 	"github.com/enriquebris/asynq/internal/rdb"
+	"github.com/fatih/color"
 	"github.com/redis/go-redis/v9"
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
@@ -403,10 +403,28 @@ func getRedisConnOpt() asynq.RedisConnOpt {
 
 func getTLSConfig() *tls.Config {
 	tlsServer := viper.GetString("tls_server")
-	if tlsServer == "" {
+	certFile := viper.GetString("tls_cert_file")
+	keyFile := viper.GetString("tls_key_file")
+
+	if tlsServer == "" && certFile == "" && keyFile == "" {
 		return nil
 	}
-	return &tls.Config{ServerName: tlsServer, InsecureSkipVerify: viper.GetBool("insecure")}
+
+	tlsConfig := &tls.Config{
+		InsecureSkipVerify: viper.GetBool("insecure"),
+		ServerName:         tlsServer, // not sure about this one
+	}
+
+	if certFile != "" && keyFile != "" {
+		cert, err := tls.LoadX509KeyPair(certFile, keyFile)
+		if err != nil {
+			return nil
+		}
+
+		tlsConfig.Certificates = []tls.Certificate{cert}
+	}
+
+	return tlsConfig
 }
 
 // printTable is a helper function to print data in table format.
