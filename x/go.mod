@@ -3,7 +3,7 @@ module github.com/enriquebris/asynq/x
 go 1.22
 
 require (
-	github.com/enriquebris/asynq v0.0.0-20250604203519-b7b19e29daad
+	github.com/enriquebris/asynq v0.0.0-20250605133801-56540de50488
 	github.com/google/uuid v1.6.0
 	github.com/prometheus/client_golang v1.20.5
 	github.com/redis/go-redis/v9 v9.7.0
