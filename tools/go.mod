@@ -4,7 +4,7 @@ go 1.22
 
 require (
 	github.com/MakeNowJust/heredoc/v2 v2.0.1
-	github.com/enriquebris/asynq v0.0.0-20250604202705-52ee523f2310
+	github.com/enriquebris/asynq v0.0.0-20250604203519-b7b19e29daad
 	github.com/fatih/color v1.18.0
 	github.com/gdamore/tcell/v2 v2.5.1
 	github.com/google/go-cmp v0.6.0
