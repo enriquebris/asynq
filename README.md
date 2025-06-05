@@ -297,7 +297,7 @@ Asynq ships with a command line tool to inspect the state of queues and tasks.
 To install the CLI tool, run the following command:
 
 ```sh
-go install github.com/hibiken/asynq/tools/asynq@latest
+go install github.com/enriquebris/asynq/tools/asynq@latest
 ```
 
 Here's an example of running the `asynq dash` command:
