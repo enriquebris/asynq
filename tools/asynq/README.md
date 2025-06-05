@@ -55,10 +55,23 @@ By default, `asynq` will try to read config file located in
 
 Config file example:
 
+**yaml example**
 ```yaml
 uri: 127.0.0.1:6379
 db: 2
 password: mypassword
+```
+
+**json example**
+```json
+{
+    "uri": "127.0.0.1:6379",
+    "db": 0,
+    "password": "mypassword",
+    "insecure": true,
+    "tls_cert_file": "ca.cert",
+    "tls_key_file": "ca.key"
+}
 ```
 
 This will set the default values for `--uri`, `--db`, and `--password` flags.
