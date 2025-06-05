@@ -65,6 +65,8 @@ github.com/enriquebris/asynq v0.0.0-20250604203519-b7b19e29daad h1:UdPDV4r4RNlBu
 github.com/enriquebris/asynq v0.0.0-20250604203519-b7b19e29daad/go.mod h1:wd6kLzkDHky6WPinhTCS6DE93VUIrj5d8EX6e8/RpAI=
 github.com/enriquebris/asynq v0.0.0-20250605133801-56540de50488 h1:YwOC/O5Ttqdedc5SFmnbujQA6lavfxYZYSz1/H1Z5Gg=
 github.com/enriquebris/asynq v0.0.0-20250605133801-56540de50488/go.mod h1:wd6kLzkDHky6WPinhTCS6DE93VUIrj5d8EX6e8/RpAI=
+github.com/enriquebris/asynq v0.0.0-20250605134443-f36d06067339 h1:5+98lpfxKkcE4gZMjiiRthqgCfMTZAcLcT6t5X/9itM=
+github.com/enriquebris/asynq v0.0.0-20250605134443-f36d06067339/go.mod h1:wd6kLzkDHky6WPinhTCS6DE93VUIrj5d8EX6e8/RpAI=
 github.com/enriquebris/asynq v0.19.0/go.mod h1:tyc63ojaW8SJ5SBm8mvI4DDONsguP5HE85EEl4Qr5Ig=
 github.com/enriquebris/asynq v0.25.0 h1:VCPyRRrrjFChsTSI8x5OCPu51MlEz6Rk+1p0kHKnZug=
 github.com/enriquebris/asynq v0.25.0/go.mod h1:DYQ1etBEl2Y+uSkqFElGYbk3M0ujLVwCfWE+TlvxtEk=
